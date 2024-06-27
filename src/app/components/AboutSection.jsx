@@ -48,18 +48,19 @@ const AboutSection = () => {
 			<div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
 				<Image
 					src='/images/about-image.png'
+					alt='image'
 					width={500}
 					height={500}
 				/>
 				<div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
 					<h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
 					<p className='text-base lg:text-lg'>
-						I'm a skilled Frontend React and Next Js developer known for
+						I&apos;m a skilled Frontend React and Next Js developer known for
 						crafting dynamic and intuitive user interfaces. With expertise in
 						modern web technologies, I excel in creating responsive layouts and
 						optimizing performance. I collaborate closely with teams to deliver
 						polished, scalable solutions that exceed expectations. Check out my
-						portfolio for examples of my work and let's bring your ideas to
+						portfolio for examples of my work and let&apos;s bring your ideas to
 						life!
 					</p>
 					<div className='flex flex-row justify-start mt-8'>
