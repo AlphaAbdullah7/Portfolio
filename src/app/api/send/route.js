@@ -27,6 +27,7 @@
 //   }
 // }
 
+"use client";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { renderToStaticMarkup } from "react-dom/server";
