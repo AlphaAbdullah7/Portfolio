@@ -10,7 +10,7 @@ const projectsData = [
 		title: "Next Js Portfolio Website",
 		description:
 			"I built this portfolio using Next.js and Tailwind CSS. It features a responsive design that adapts seamlessly to various devices and utilizes server-side rendering for quick loading. The site has a clean, modern interface that effectively highlights my skills and projects.",
-		image: "/images/projects/1.png",
+		image: "/images/projects/Portfolio.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -20,7 +20,7 @@ const projectsData = [
 		title: "FBA",
 		description:
 			"FBA is a project showcasing an entrepreneur's journey in FBA. Strapi CMS is used for content and Stripe for payments. I have hands-on experience on implementing elegant UI showcasing proficiency in frontend development.",
-		image: "/images/projects/6.png",
+		image: "/images/projects/FBA.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -30,7 +30,7 @@ const projectsData = [
 		title: "BSM",
 		description:
 			"An application that is designed to be the ultimate day to day booking tool for travel professionals. I have hands-on experience in designing and developing it’s user interface.",
-		image: "/images/projects/3.png",
+		image: "/images/projects/BSM.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -50,7 +50,7 @@ const projectsData = [
 		title: "Ejbni",
 		description:
 			"Ejbni is a full stack web and mobile application built in node.js and Next Js. This application is about food reviews in different restaurants. I have hands-on experience in designing and developing it’s user interface and integration in Next Js using Tailwind CSS and RTK Queries while using Redux Toolkit for state management.",
-		image: "/images/projects/2.png",
+		image: "/images/projects/4.png",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -81,11 +81,16 @@ const ProjectsSection = () => {
 				My Projects
 			</h2>
 			<div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
-				<ProjectTag
+				{/* <ProjectTag
+					onClick={handleTagChange}
+					name='All'
+					isSelected={tag === "All"}
+				/> */}
+				{/* <ProjectTag
 					onClick={handleTagChange}
 					name='Web'
 					isSelected={tag === "Web"}
-				/>
+				/> */}
 				{/* <ProjectTag
 					onClick={handleTagChange}
 					name='Mobile'
