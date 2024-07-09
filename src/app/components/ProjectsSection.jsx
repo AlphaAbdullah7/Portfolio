@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
-import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
@@ -10,7 +9,7 @@ const projectsData = [
 		title: "Next Js Portfolio Website",
 		description:
 			"I built this portfolio using Next.js and Tailwind CSS. It features a responsive design that adapts seamlessly to various devices and utilizes server-side rendering for quick loading. The site has a clean, modern interface that effectively highlights my skills and projects.",
-		image: "/images/projects/Portfolio.jpg",
+		image: "/images/projects/1.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -20,7 +19,7 @@ const projectsData = [
 		title: "FBA",
 		description:
 			"FBA is a project showcasing an entrepreneur's journey in FBA. Strapi CMS is used for content and Stripe for payments. I have hands-on experience on implementing elegant UI showcasing proficiency in frontend development.",
-		image: "/images/projects/FBA.jpg",
+		image: "/images/projects/2.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -30,7 +29,7 @@ const projectsData = [
 		title: "BSM",
 		description:
 			"An application that is designed to be the ultimate day to day booking tool for travel professionals. I have hands-on experience in designing and developing it’s user interface.",
-		image: "/images/projects/BSM.jpg",
+		image: "/images/projects/3.jpg",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -40,7 +39,7 @@ const projectsData = [
 		title: "React Firebase Template",
 		description:
 			"In this project, I implemented authentication using Firebase to enable seamless login through Facebook, Google, and Instagram. The integration provides a streamlined and secure way for users to access the application using their preferred social media accounts. This enhances user convenience and improves the overall user experience by simplifying the login process.",
-		image: "/images/projects/5.png",
+		image: "/images/projects/4.png",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -50,7 +49,7 @@ const projectsData = [
 		title: "Ejbni",
 		description:
 			"Ejbni is a full stack web and mobile application built in node.js and Next Js. This application is about food reviews in different restaurants. I have hands-on experience in designing and developing it’s user interface and integration in Next Js using Tailwind CSS and RTK Queries while using Redux Toolkit for state management.",
-		image: "/images/projects/4.png",
+		image: "/images/projects/5.png",
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
