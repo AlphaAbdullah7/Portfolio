@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
+import Logo from "../../assets/logo.jpg";
+import Image from "next/image";
 
 const navLinks = [
 	{
@@ -29,10 +31,10 @@ const Navbar = () => {
 				<Link
 					href={"/"}
 					className='text-2xl md:text-5xl text-white font-semibold'>
-					<img
+					<Image
 						width={50}
 						height={50}
-						src='/images/logo.jpg'
+						src={Logo}
 						alt='Logo'
 					/>
 				</Link>

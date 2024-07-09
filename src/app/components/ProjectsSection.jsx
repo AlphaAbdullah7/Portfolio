@@ -2,6 +2,9 @@
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import { motion, useInView } from "framer-motion";
+import One from "../../assets/1.jpg";
+import Two from "../../assets/2.jpg";
+import Three from "../../assets/3.jpg";
 
 const projectsData = [
 	{
@@ -9,7 +12,7 @@ const projectsData = [
 		title: "Next Js Portfolio Website",
 		description:
 			"I built this portfolio using Next.js and Tailwind CSS. It features a responsive design that adapts seamlessly to various devices and utilizes server-side rendering for quick loading. The site has a clean, modern interface that effectively highlights my skills and projects.",
-		image: "/images/projects/1.jpg",
+		image: One.src,
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -19,7 +22,7 @@ const projectsData = [
 		title: "FBA",
 		description:
 			"FBA is a project showcasing an entrepreneur's journey in FBA. Strapi CMS is used for content and Stripe for payments. I have hands-on experience on implementing elegant UI showcasing proficiency in frontend development.",
-		image: "/images/projects/2.jpg",
+		image: Two.src,
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
@@ -29,7 +32,7 @@ const projectsData = [
 		title: "BSM",
 		description:
 			"An application that is designed to be the ultimate day to day booking tool for travel professionals. I have hands-on experience in designing and developing it’s user interface.",
-		image: "/images/projects/3.jpg",
+		image: Three.src,
 		tag: ["All", "Web"],
 		gitUrl: "/",
 		previewUrl: "/",
