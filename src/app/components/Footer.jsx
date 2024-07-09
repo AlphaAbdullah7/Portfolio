@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../../../public/Logo.jpg";
 
 const Footer = () => {
 	return (
@@ -9,7 +8,8 @@ const Footer = () => {
 				<span>
 					<Image
 						width={50}
-						src={Logo}
+						height={50}
+						src='/Logo.jpg'
 						alt='Logo'
 					/>
 				</span>
