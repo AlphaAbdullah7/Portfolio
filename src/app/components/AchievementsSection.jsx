@@ -17,7 +17,7 @@ const achievementsList = [
 	},
 	{
 		metric: "Connections",
-		value: "2500",
+		value: "3000",
 		postfix: "+",
 	},
 	{
